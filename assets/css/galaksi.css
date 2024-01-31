@@ -1,0 +1,219 @@
+body{
+    background-image: url("../images/2217435.jpg");
+}
+.samanyolu{
+    position: relative;
+    width: 1200px;
+    height: 1200px;
+    margin: 700px 400px 700px 800px;
+    border-radius: 50%;
+    border:4px dashed white;
+    animation: don 25s linear infinite;
+}
+
+.gunes img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    animation: don 60s linear infinite;
+    text-align: center;
+}
+
+.merkur{
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    border:4px dashed white;
+    animation: don 25s linear infinite;
+    text-align: center;
+}
+.merkur img{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    animation: don 20s linear infinite;
+    top: -20px;
+}
+
+.venus{
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    border:4px dashed white;
+    animation: don 45s linear infinite;
+    text-align: center;
+}
+.venus img{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    animation: don 20s linear infinite;
+    top: -30px;
+}
+
+.earth {
+    width: 200px;
+    height: 200px;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: relative;
+    left: 170px;
+    animation: don 10s linear infinite;
+}
+
+.earth  img {
+    width: 80px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.moon {
+    width: 100px;
+    height: 50px;
+    top: -150px;
+    left: -150px;
+    animation: don 25s linear infinite;
+}
+
+.moon img {
+    width: 50px;
+    height: 50px;
+}
+
+.mars{
+    width: 1500px;
+    height: 1500px;
+    border-radius: 50%;
+    position: absolute;
+    top: -140px;
+    left: -140px;
+    border:4px dashed white;
+    animation: don 10s linear infinite;
+    text-align: center;
+}
+.mars img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    animation: don 10s linear infinite;
+    top: -30px;
+}
+
+.jupiter{
+    width: 1700px;
+    height: 1700px;
+    border-radius: 50%;
+    position: absolute;
+    top: -240px;
+    left: -240px;
+    border:4px dashed white;
+    animation: don 60s linear infinite;
+    text-align: center;
+}
+.jupiter img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation: don 60s linear infinite;
+    top: -60px;
+}
+
+.saturn{
+    width: 1900px;
+    height: 1900px;
+    border-radius: 50%;
+    position: absolute;
+    top: -340px;
+    left: -340px;
+    border:4px dashed white;
+    animation: don 60s linear infinite;
+    text-align: center;
+}
+.saturn img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation: don 30s linear infinite;
+    top: -50px;
+}
+
+.uranus{
+    width: 2100px;
+    height: 2100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -440px;
+    left: -440px;
+    border:4px dashed white;
+    animation: don 80s linear infinite;
+    text-align: center;
+}
+.uranus img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    animation: don 20s linear infinite;
+    top: -50px;
+}
+
+.neptun{
+    width: 2300px;
+    height: 2300px;
+    border-radius: 50%;
+    position: absolute;
+    top: -540px;
+    left: -540px;
+    border:4px dashed white;
+    animation: don 35s linear infinite;
+    text-align: center;
+}
+.neptun img{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    animation: don 20s linear infinite;
+    top: -30px;
+}
+.pluto{
+    width: 2500px;
+    height: 2500px;
+    border-radius: 50%;
+    position: absolute;
+    top: -640px;
+    left: -640px;
+    border:4px dashed white;
+    animation: don 20s linear infinite;
+    text-align: center;
+}
+.pluto img{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    animation: don 20s linear infinite;
+    top: -20px;
+}
+
+
+
+
+@keyframes don {
+    100%{
+        transform:rotate(-360deg);
+    }
+}
+@keyframes tersdon {
+    100%{
+        transform:rotate(360deg);
+    }
+}
